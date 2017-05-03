@@ -1,7 +1,7 @@
 # user-config
 Easy user application configuration management
 
-[![Build Status](https://travis-ci.org/perry-mitchell/user-config.svg?branch=master)](https://travis-ci.org/perry-mitchell/user-config)
+[![Build Status](https://travis-ci.org/perry-mitchell/user-config.svg?branch=master)](https://travis-ci.org/perry-mitchell/user-config) [![npm version](https://badge.fury.io/js/user-config.svg)](https://www.npmjs.com/package/user-config)
 
 ## Usage
 When requiring the library, **user-config** returns a function which is used to instantiate a config object that allows getting and setting of config values:
