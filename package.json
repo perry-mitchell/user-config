@@ -4,7 +4,8 @@
   "description": "Easy user application configuration management for node and web applications",
   "main": "source/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:node",
+    "test:node": "mocha -r test/node/index.js test/node/**/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,10 @@
     "graceful-fs": "~4.1.11",
     "write-file-atomic": "~2.0.0",
     "xdg-basedir": "~3.0.0"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "mocha": "~3.3.0",
+    "sinon": "~2.2.0"
   }
 }
